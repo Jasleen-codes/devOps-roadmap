@@ -1,1 +1,32 @@
 # devOps-roadmap
+This repository documents my 20-Day Cloud & DevOps learning journey.
+
+## Goals
+
+- Learn Linux
+- Learn Git & GitHub
+- Learn Docker
+- Learn AWS
+- Learn CI/CD
+- Learn Terraform
+- Build DevOps Projects
+
+## Progress
+
+### Day 1
+- Installed Git
+- Installed WSL
+- Installed Ubuntu
+- Learned Linux basic commands
+
+- ## Linux Commands Learned
+
+- pwd
+- ls
+- mkdir
+- cd
+- touch
+- echo
+- cat
+- >
+- >>
