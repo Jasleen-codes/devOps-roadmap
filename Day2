@@ -1,0 +1,187 @@
+📅 Day 2 - Linux File Permissions
+
+## 🎯 Objective
+
+Today I learned how Linux controls access to files and directories using file permissions.
+
+---
+
+# What are Linux File Permissions?
+
+Linux uses file permissions to decide who can:
+
+- Read a file
+- Modify a file
+- Execute a file
+
+Permissions help protect files from unauthorized access.
+
+---
+
+# Permission Categories
+
+There are three types of users:
+
+1. Owner
+2. Group
+3. Others
+
+Example:
+
+-rw-r--r--
+
+Breakdown:
+
+Owner  -> rw-
+Group  -> r--
+Others -> r--
+
+---
+
+# Permission Symbols
+
+| Symbol | Meaning |
+|---------|---------|
+| r | Read |
+| w | Write |
+| x | Execute |
+
+---
+
+# Commands Learned Today
+
+## View permissions
+
+```bash
+ls -l
+```
+
+Displays detailed information about files, including permissions.
+
+---
+
+## Current user
+
+```bash
+whoami
+```
+
+Shows the username of the current logged-in user.
+
+---
+
+## User information
+
+```bash
+id
+```
+
+Displays User ID (UID), Group ID (GID), and group memberships.
+
+---
+
+## View groups
+
+```bash
+groups
+```
+
+Shows all groups the current user belongs to.
+
+---
+
+## Change permissions
+
+```bash
+chmod +x file3.sh
+```
+
+Adds execute permission.
+
+```bash
+chmod -x file3.sh
+```
+
+Removes execute permission.
+
+```bash
+chmod 644 file1.txt
+```
+
+Owner: Read + Write
+
+Group: Read
+
+Others: Read
+
+```bash
+chmod 755 file3.sh
+```
+
+Owner: Read, Write, Execute
+
+Group: Read, Execute
+
+Others: Read, Execute
+
+---
+
+# Numeric Permission Values
+
+| Value | Meaning |
+|------|-----------------------------|
+| 777 | Everyone has full permissions |
+| 755 | Owner full, others read & execute |
+| 644 | Owner read/write, others read |
+| 600 | Only owner can read/write |
+
+---
+
+# Commands Practiced
+
+```bash
+mkdir Day2
+cd Day2
+
+mkdir Practice
+cd Practice
+
+touch file1.txt
+touch file2.txt
+touch file3.sh
+
+ls -l
+
+whoami
+
+id
+
+groups
+
+chmod +x file3.sh
+
+chmod -x file3.sh
+
+chmod 644 file1.txt
+
+chmod 755 file3.sh
+```
+
+---
+
+# Key Takeaways
+
+- Linux uses permissions to protect files.
+- Every file has an owner, a group, and permissions for others.
+- The `ls -l` command displays file permissions.
+- The `chmod` command changes permissions.
+- Numeric permission values make permission management easier.
+
+---
+
+# Today's Progress
+
+- ✅ Learned Linux File Permissions
+- ✅ Practiced chmod
+- ✅ Understood Owner, Group, Others
+- ✅ Learned permission values (755, 644, 600)
