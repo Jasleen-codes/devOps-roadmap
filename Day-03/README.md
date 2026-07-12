@@ -23,8 +23,8 @@ Example:
 ```bash
 whoami
 ```
+<img width="467" height="87" alt="image" src="https://github.com/user-attachments/assets/89569944-0c8b-4855-b51a-b37006ea3822" />
 
----
 
 ### 2. id
 
@@ -36,6 +36,7 @@ Example:
 ```bash
 id
 ```
+<img width="1450" height="72" alt="image" src="https://github.com/user-attachments/assets/b924270f-46c1-4543-b554-bc47128100d4" />
 
 ---
 
@@ -51,6 +52,8 @@ groups
 ```
 
 ---
+<img width="611" height="97" alt="image" src="https://github.com/user-attachments/assets/5f1f911a-c1f2-473e-9e79-b939a691fe49" />
+
 
 ### 4. who
 
@@ -64,6 +67,7 @@ who
 ```
 
 ---
+
 
 ### 5. sudo
 
